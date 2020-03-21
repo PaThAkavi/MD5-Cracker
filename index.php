@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<head><title>Charles Severance MD5 Cracker</title></head>
+<head><title>Avaneesh Pathak MD5 Cracker</title></head>
 <body>
 <h1>MD5 cracker</h1>
 <p>This application takes an MD5 hash
@@ -51,7 +51,7 @@ if ( isset($_GET['md5']) ) {
 ?>
 </pre>
 
-<p>Original Text: <?= htmlentities($goodtext); ?></p>
+<p>PIN: <?= htmlentities($goodtext); ?></p>
 <form>
 <input type="text" name="md5" size="60" />
 <input type="submit" value="Crack MD5"/>
@@ -61,7 +61,7 @@ if ( isset($_GET['md5']) ) {
 <li><a href="md5.php">MD5 Encoder</a></li>
 <li><a href="makecode.php">MD5 Code Maker</a></li>
 <li><a
-href="https://github.com/csev/wa4e/tree/master/code/crack"
+href="https://github.com/PaThAkavi/MD5-Cracker"
 target="_blank">Source code for this application</a></li>
 </ul>
 </body>
